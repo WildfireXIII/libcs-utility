@@ -1,0 +1,5 @@
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\bin\Debug\CSUtilities.pdb
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\obj\Debug\CSUtilities.csprojResolveAssemblyReference.cache
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\obj\Debug\CSUtilities.pdb
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\bin\Debug\CSUtilities.exe
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\obj\Debug\CSUtilities.exe
