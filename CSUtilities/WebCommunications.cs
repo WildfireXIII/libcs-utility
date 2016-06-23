@@ -53,9 +53,6 @@ namespace DWL.Utility
 			// read the response content
 			StreamReader pStreamReader = new StreamReader(pResponse.GetResponseStream());
 			string sResponse = pStreamReader.ReadToEnd();
-
-			// automatically unescape escaped backslashes
-			sResponse = sResponse.Replace(@"\\", @"\");
 			return sResponse;
 		}
 	}
