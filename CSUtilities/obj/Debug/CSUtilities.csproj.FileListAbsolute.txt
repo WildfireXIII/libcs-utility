@@ -3,3 +3,8 @@ C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\bin\Debug\DWL.Utility.dll
 C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\bin\Debug\DWL.Utility.pdb
 C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\obj\Debug\DWL.Utility.dll
 C:\dwl\lab\CSharpUtilityLib\CSUtilities\CSUtilities\obj\Debug\DWL.Utility.pdb
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\bin\Debug\DWL.Utility.pdb
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\obj\Debug\CSUtilities.csprojResolveAssemblyReference.cache
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\obj\Debug\DWL.Utility.pdb
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\bin\Debug\DWL.Utility.dll
+C:\dwl\lab\CSharpUtilityLib\CSUtilities\obj\Debug\DWL.Utility.dll

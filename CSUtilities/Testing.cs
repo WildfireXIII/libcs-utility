@@ -12,7 +12,9 @@ namespace CSUtilities
 	{
 		public static void Main(string[] args)
 		{
-			string sResponse = WebCommunications.SendPostRequest("https://httpbin.org/post", "Hello world!");
+			WebCommunications.AuthKey = "Thing";
+			string sResponse = WebCommunications.SendPostRequest("https://httpbin.org/post", "Hello world!", true);
+			//string sResponse = WebCommunications.SendGetRequest("https://httpbin.org/get?number=2", true);
 			Console.WriteLine(sResponse);
 
 			Console.ReadKey();
