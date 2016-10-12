@@ -13,7 +13,9 @@ namespace CSUtilities
 		public static void Main(string[] args)
 		{
 			WebCommunications.AuthKey = "Thing";
-			string sResponse = WebCommunications.SendPostRequest("https://httpbin.org/post", "Hello world!", true);
+			//string sResponse = WebCommunications.SendPostRequest("https://httpbin.org/post", "Hello world!", true);
+			//string sResponse = WebCommunications.SendGetRequest("https://httpbin.org/cache", true);
+			string sResponse = WebCommunications.SendGetRequest("http://dwlapi.azurewebsites.net/api/reflection/KnowledgeBaseServer/KnowledgeBaseServer/KnowledgeServer/ConstructPage?sQuery=Genetic_Algorithm", true);
 			//string sResponse = WebCommunications.SendGetRequest("https://httpbin.org/get?number=2", true);
 			Console.WriteLine(sResponse);
 

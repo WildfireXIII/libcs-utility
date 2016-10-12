@@ -53,12 +53,16 @@ namespace DWL.Utility
 		// send the specified request and return the response as a string
 		private static string ReadResponse(WebRequest pRequest)
 		{
+			string sResponse = "";
+
 			// send the request
-			WebResponse pResponse = pRequest.GetResponse();
+			WebResponse pResponse = null;
+			try { pResponse = pRequest.GetResponse(); }
+			catch(WebException e) { pResponse = e.Response; sResponse += e.Message + "\n"; }
 
 			// read the response content
 			StreamReader pStreamReader = new StreamReader(pResponse.GetResponseStream());
-			string sResponse = pStreamReader.ReadToEnd();
+			sResponse += pStreamReader.ReadToEnd();
 			return sResponse;
 		}
 	}
