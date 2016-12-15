@@ -1,4 +1,13 @@
-﻿using System;
+﻿//*************************************************************
+//  File: WebCommunications.cs
+//  Date created: 6/9/2016
+//  Date edited: 12/15/2016
+//  Author: Nathan Martindale
+//  Copyright © 2016 Digital Warrior Labs
+//  Description: Collection of useful functions for dealing with interactions with REST endpoints
+//*************************************************************
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

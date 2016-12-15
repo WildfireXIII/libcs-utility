@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Master.cs" />
+    <Compile Include="Security.cs" />
     <Compile Include="Testing.cs" />
     <Compile Include="WebCommunications.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
