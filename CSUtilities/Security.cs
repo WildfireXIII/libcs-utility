@@ -20,16 +20,16 @@ namespace DWL.Utility
 	public class Security
 	{
 		// thanks to http://www.codeshare.co.uk/blog/sha-256-and-sha-512-hash-examples/
-		public string Sha256Hash(string sString)
+		public static string Sha256Hash(string sString)
 		{
 			SHA256 p256 = SHA256Managed.Create();
 			byte[] aBytes = Encoding.UTF8.GetBytes(sString);
 			byte[] aHashBytes = p256.ComputeHash(aBytes);
-			string sHash = this.GetStringFromHash(aHashBytes);
+			string sHash = GetStringFromHash(aHashBytes);
 			return sHash;
 		}
 
-		private string GetStringFromHash(byte[] aHashBytes)
+		private static string GetStringFromHash(byte[] aHashBytes)
 		{
 			StringBuilder pResult = new StringBuilder();
 			for (int i = 0; i < aHashBytes.Length; i++)
